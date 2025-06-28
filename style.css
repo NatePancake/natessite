@@ -8,6 +8,9 @@
     src: url(coolveticarg.otf)
 }
 
+a, p, h1, h2, h3, h4 {
+    user-select: none
+}
 #qrpic {
     display: block;
     margin-left: auto;

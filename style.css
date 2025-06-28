@@ -1,0 +1,86 @@
+@font-face {
+    font-family: srexp;
+    src:  url(superrichexpanded.otf);
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(coolveticarg.otf)
+}
+
+#qrpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+#titlediv {
+    padding = 20px:
+}
+
+.mid {
+    text-align: center;
+    font-size: 20px;
+}
+
+body {
+    background-color: black;
+    padding: 50px;
+}
+
+h1.titlething {
+    text-align: center;
+    color: white;
+    font-family: srexp;
+}
+
+h1 {
+    color: white;
+    font-family: coolvetica;
+}
+
+p {
+    color: white;
+    font-family: coolvetica;
+}
+
+h2 {
+    color: white;
+    font-family: coolvetica;
+}
+
+#subcountdiv {
+    padding: 50px;
+}
+
+#subcount, #subcounttext, #smalltext {
+    margin: 0px;
+    padding: 0px;
+}
+
+#subcounttext {
+    
+}
+
+#subcount {
+    font-size: 70px;
+}
+
+#smalltext {
+    font-size: 10px;
+    color: lightslategray;
+}
+
+a {
+    text-decoration: none;
+    color: lightslategray;
+    font-family: coolvetica;
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
+a:hover {
+    color: deeppink;
+    font-size: 40px;
+}

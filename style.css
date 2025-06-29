@@ -31,8 +31,11 @@ a, p, h1, h2, h3, h4 {
 }
 
 #qn {
-    color: hotpink;
-    margin-top: 20px;
+    color: deeppink;
+}
+
+#qnsec {
+    margin: 50px;
 }
 
 body {

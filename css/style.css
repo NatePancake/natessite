@@ -1,11 +1,11 @@
 @font-face {
     font-family: srexp;
-    src:  url(superrichexpanded.otf);
+    src:  url(/fonts/superrichexpanded.otf);
 }
 
 @font-face {
     font-family: coolvetica;
-    src: url(coolveticarg.otf)
+    src: url(/fonts/coolveticarg.otf)
 }
 
 a, p, h1, h2, h3, h4 {
@@ -22,7 +22,7 @@ a, p, h1, h2, h3, h4 {
 }
 
 #titlediv {
-    padding = 20px:
+    padding: 20px;
 }
 
 .mid {
@@ -31,7 +31,7 @@ a, p, h1, h2, h3, h4 {
 }
 
 #qn {
-    color: deeppink;
+    color: lightskyblue;
 }
 
 #qnsec {
@@ -73,10 +73,6 @@ h2 {
     padding: 0px;
 }
 
-#subcounttext {
-    
-}
-
 #subcount {
     font-size: 70px;
 }
@@ -94,6 +90,6 @@ a {
 }
 
 a:hover {
-    color: deeppink;
+    color: lightskyblue;
     font-size: 40px;
 }

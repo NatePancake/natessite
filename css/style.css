@@ -54,6 +54,60 @@ h1 {
     font-family: coolvetica;
 }
 
+#dnyear{
+    transform: rotate3d(1, 1, 0, 30deg);
+    color: rgb(76, 183, 255);
+    font-family: coolvetica;
+    font-size: 70px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+#dnmonth{
+    transform: rotate3d(1, 1, 0, 25deg);
+    color: rgb(154, 214, 255);
+    font-family: coolvetica;
+    font-size: 40px;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    position: relative;
+    left: 15px;
+    text-shadow: 0 0 10px black;
+}
+
+#dnday{
+    transform: rotate3d(1, 1, 0, 20deg);
+    color: rgb(205, 235, 255);
+    font-family: coolvetica;
+    margin-top: -25px;
+    margin-bottom: -20px;
+    position: relative;
+    left: 30px;
+    text-shadow: 0 0 10px black;
+}
+
+#dnentryt{
+    transform: rotate3d(1, 1, 0, 15deg);
+    color: rgb(247, 252, 255);
+    font-family: coolvetica;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    left: 45px;
+    text-shadow: 0 0 10px black;
+}
+
+#dnentrybody{
+    transform: rotate3d(1, 1, 0, 10deg);
+    color: rgb(215, 222, 227);
+    font-family: coolvetica;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 45px;
+    text-shadow: 0 0 10px black;
+}
+
 p {
     color: white;
     font-family: coolvetica;
@@ -79,7 +133,7 @@ h2 {
 
 #smalltext {
     font-size: 10px;
-    color: lightslategray;
+    color: rgb(83, 91, 98);
 }
 
 a {
@@ -89,7 +143,23 @@ a {
     transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
 }
 
+#dailynotebook {
+    text-decoration: none;
+    color: rgb(169, 188, 208);
+    font-family: coolvetica;
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
 a:hover {
     color: lightskyblue;
     font-size: 40px;
+}
+
+#dailynotebook:hover {
+    color: rgb(175, 164, 255);
+    font-size: 40px;
+}
+
+.backmarg {
+    margin-top: 50px;
 }

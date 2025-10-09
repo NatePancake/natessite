@@ -136,6 +136,13 @@ h2 {
     color: rgb(83, 91, 98);
 }
 
+#smalltextnopadding {
+    font-size: 10px;
+    color: rgb(83, 91, 98);
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
 a {
     text-decoration: none;
     color: lightslategray;

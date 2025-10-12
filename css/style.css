@@ -90,7 +90,7 @@ h1 {
     transform: rotate3d(1, 1, 0, 15deg);
     color: rgb(247, 252, 255);
     font-family: coolvetica;
-    margin-top: -40px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-bottom: -45px;
     position: relative;

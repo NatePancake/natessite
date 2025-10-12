@@ -28,6 +28,7 @@ a, p, h1, h2, h3, h4 {
 .mid {
     text-align: center;
     font-size: 20px;
+    margin-bottom: 60px;
 }
 
 #qn {
@@ -102,10 +103,10 @@ h1 {
     transform: rotate3d(1, 1, 0, 10deg);
     color: rgb(215, 222, 227);
     font-family: coolvetica;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 45px;
+    margin-bottom: 30px;
     position: relative;
-    left: 60px;
+    left: 90px;
     text-shadow: 0 0 10px black;
 }
 

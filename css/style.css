@@ -68,8 +68,8 @@ h1 {
     color: rgb(154, 214, 255);
     font-family: coolvetica;
     font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: -40px;
+    margin-top: -40px;
+    margin-bottom: -20px;
     position: relative;
     left: 15px;
     text-shadow: 0 0 10px black;
@@ -90,7 +90,7 @@ h1 {
     transform: rotate3d(1, 1, 0, 15deg);
     color: rgb(247, 252, 255);
     font-family: coolvetica;
-    margin-top: -40px;
+    margin-top: 0px;
     margin-left: 20px;
     margin-bottom: -45px;
     position: relative;
@@ -102,10 +102,10 @@ h1 {
     transform: rotate3d(1, 1, 0, 10deg);
     color: rgb(215, 222, 227);
     font-family: coolvetica;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 40px;
     position: relative;
-    left: 90px;
+    left: 60px;
     text-shadow: 0 0 10px black;
 }
 

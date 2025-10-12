@@ -157,6 +157,13 @@ a {
     transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
 }
 
+#yt {
+    text-decoration: none;
+    color: crimson;
+    font-family: coolvetica;
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
 a:hover {
     color: lightskyblue;
     font-size: 25px;
@@ -164,6 +171,11 @@ a:hover {
 
 #dailynotebook:hover {
     color: rgb(175, 164, 255);
+    font-size: 40px;
+}
+
+#yt:hover {
+    color: lightcoral;
     font-size: 40px;
 }
 

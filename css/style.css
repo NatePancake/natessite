@@ -39,26 +39,6 @@ a, p, h1, h2, h3, h4 {
     margin: 50px;
 }
 
-.bg {
-    z-index: 0;
-    display: grid;
-    position: fixed;
-    width: 1000%;
-    height: 1000%;
-    margin: -50px;
-    background-size: 40px 40px;
-    background-image: radial-gradient(circle, #9d9d9d 1px, rgba(0, 0, 0, 0) 1px);
-    background-repeat: space;
-    animation: backgrid linear;
-    animation-timeline: scroll();
-}
-
-@keyframes backgrid {
-    to {
-        transform: translateY(-200px)
-    }
-}
-
 body {
     background-color: black;
     padding: 50px;
@@ -203,4 +183,24 @@ a:hover {
 
 .backmarg {
     margin-top: 50px;
+}
+
+.bg {
+    z-index: 0;
+    display: grid;
+    position: fixed;
+    width: 1000%;
+    height: 1000%;
+    margin: -50px;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #9d9d9d 1px, rgba(0, 0, 0, 0) 1px);
+    background-repeat: space;
+    animation: backgrid linear;
+    pointer-events: none;
+}
+
+@keyframes backgrid {
+    to {
+        transform: translateY(-200px)
+    }
 }

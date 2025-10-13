@@ -196,11 +196,12 @@ a:hover {
     background-image: radial-gradient(circle, #9d9d9d 1px, rgba(0, 0, 0, 0) 1px);
     background-repeat: space;
     animation: backgrid linear;
+    animation-timeline: scroll();
     pointer-events: none;
 }
 
 @keyframes backgrid {
     to {
-        transform: translateY(-200px)
+        transform: translateY(-100px)
     }
 }

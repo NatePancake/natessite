@@ -16,4 +16,3 @@ fetch(url)
     console.error("Error fetching subscriber data:", error);
     document.getElementById("subcount").textContent = "Failed to load";
   });
-  

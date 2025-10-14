@@ -205,3 +205,7 @@ a:hover {
         transform: translateY(-100px)
     }
 }
+
+.bg2 {
+    display:fixed;
+}

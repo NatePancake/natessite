@@ -8,10 +8,27 @@
     src: url(/fonts/coolveticarg.otf)
 }
 
+.mainmid{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.fc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .fe {
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    flex-grow: 1;
+    max-width: 700px;
+    min-width: 550px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 
 a, p, h1, h2, h3, h4 {

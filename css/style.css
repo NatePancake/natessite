@@ -33,10 +33,16 @@
 }
 
 a, p, h1, h2, h3, h4 {
-    user-select: none;
+    user-select: white;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+::selection {
+  background-color: white;
+  color: black;
+}
+
 #qrpic {
     display: block;
     margin-left: auto;

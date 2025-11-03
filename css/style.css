@@ -8,7 +8,105 @@
     src: url(/fonts/coolveticarg.otf)
 }
 
-.mainmid{
+.indexjustincasetherestwoelementsinaddivandthebuttongetsextraspacebetweenotherbuttons {
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+
+/*for teleporter*/
+.img {
+    color: peachpuff;
+}
+
+.img:hover {
+    color: rgb(255, 46, 46);
+}
+
+.vid {
+    color: rgb(255, 185, 249);
+}
+
+.vid:hover {
+    color: rgb(178, 46, 255);
+}
+
+.mograph {
+    color: rgb(185, 255, 200);
+}
+
+.mograph:hover {
+    color: rgb(24, 255, 128);
+}
+
+.audio {
+    color: rgb(195, 185, 255);
+}
+
+.audio:hover {
+    color: rgb(67, 46, 255);
+}
+
+.other {
+    color: rgb(189, 189, 189);
+}
+
+.other:hover {
+    color: rgb(141, 255, 249);
+}
+
+.mpack {
+    color: rgb(252, 255, 69);
+}
+
+.mpack:hover {
+    color: rgb(255, 84, 16);
+}
+/**/
+
+.quickgrab {
+    color: lime;
+}
+
+.quickgrab:hover {
+    color: lightgreen;
+}
+
+.varpack {
+    color: lightseagreen;
+}
+
+.varpack:hover {
+    color: cyan;
+}
+
+.artists {
+    color: mediumpurple;
+}
+
+.artists:hover {
+    color: lightpink;
+}
+
+/**/
+#moremedia {
+    color: rgb(134, 211, 211);
+}
+
+#moremedia:hover {
+    color: rgb(17, 0, 255);
+    font-size: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.medianavigation {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainmid {
     max-width: 70%;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -196,6 +294,13 @@ a {
     transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
 }
 
+#leafyrope {
+    text-decoration: none;
+    color: rgb(50, 192, 109);
+    font-family: coolvetica;
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
 #dailynotebook {
     text-decoration: none;
     color: rgb(169, 188, 208);
@@ -213,6 +318,11 @@ a {
 a:hover {
     color: lightskyblue;
     font-size: 20px;
+}
+
+#leafyrope:hover {
+    color: rgb(192, 255, 220);
+    font-size: 40px;
 }
 
 #dailynotebook:hover {
@@ -276,4 +386,9 @@ a:hover {
 
 .trrn:hover {
     color: rgb(171, 255, 203)
+}
+
+.artistcolorcodelegend {
+    font-size: 12px;
+    line-height: 0.8;
 }

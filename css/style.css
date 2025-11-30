@@ -14,6 +14,14 @@
 }
 
 /*for teleporter*/
+.wall {
+    color: rgb(124, 148, 255);
+}
+
+.wall:hover {
+    color: rgb(99, 250, 212);
+}
+
 .img {
     color: peachpuff;
 }

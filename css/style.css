@@ -8,6 +8,19 @@
     src: url(/fonts/coolveticarg.otf)
 }
 
+.merchentry {
+    /* just in case */
+}
+
+.merchtitle {
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+.merchpics {
+    display: flex;
+}
+
 .indexjustincasetherestwoelementsinaddivandthebuttongetsextraspacebetweenotherbuttons {
     margin-top: -16px;
     margin-bottom: -16px;
@@ -165,6 +178,7 @@ a, p, h1, h2, h3, h4 {
     text-align: center;
     font-size: 20px;
     margin-bottom: 60px;
+    margin-top: 0px;
 }
 
 .midxtra {
@@ -192,6 +206,8 @@ h1.titlething {
     text-align: center;
     color: white;
     font-family: srexp;
+    font-size: 50px;
+    margin-bottom: 0%;
 }
 
 h1 {
@@ -321,6 +337,42 @@ a {
     color: crimson;
     font-family: coolvetica;
     transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
+.merchindex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.mie {
+    font-size: 50px;
+}
+
+.mie:hover {
+    font-size: 60px;
+    color: lightsteelblue;
+}
+
+.indexmerch {
+    font-size: 19px;
+}
+
+.merchhov {
+    color: rgba(255, 255, 255, 0)
+}
+
+.indexmerch:hover .nmerchhov {
+    margin-right: 0px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.indexmerch:hover .merchhov{
+    margin-left: 0px;
+    font-size: 30px;
+    color: white;
 }
 
 a:hover {

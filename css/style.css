@@ -1,0 +1,812 @@
+@font-face {
+    font-family: srexp;
+    src:  url(/fonts/superrichexpanded.otf);
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(/fonts/coolveticarg.otf)
+}
+
+@font-face {
+    font-family: inconsolata2;
+    src: url(/fonts/inconsolata2.ttf)
+}
+
+@font-face {
+    font-family: inconsolata3;
+    src: url(/fonts/inconsolata3.ttf)
+}
+
+@font-face {
+    font-family: acurler;
+    src: url(/fonts/acurler.otf)
+}
+
+#wikicategory {
+    margin-bottom: 40px;
+}
+
+#bigquotemark {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: acurler;
+    font-size: 150px;
+    transform: translate(-45px, -60px);
+    text-shadow: 0px 0px 20px  black;
+}
+
+#wikigallery {
+    display: grid;
+    /* flex-wrap: wrap; */
+    /* padding: 0 4px; */
+}
+
+#wikigalleryrow {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+#wikigalleryrow img {
+    max-height: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#wikiinfotable th {
+    text-align: left;
+    border-left: 5px solid white;
+    /* border-radius: 5px; */
+    padding-left: 20px;
+}
+
+#wikiinfotable td {
+    text-align: left;
+    border-left: 1px solid white;
+    /* border-radius: 5px; */
+    padding-left: 20px;
+}
+
+#wikiinfotablecontainer {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+
+    margin-top: 20px;
+    color: white;
+    border: 1px solid white;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wikiinfotable {
+    font-family: inconsolata2;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-spacing: 10px;
+}
+
+#wikiinfotable caption {
+    font-family: inconsolata3;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#columncontainerSPEC1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+  #columncontainerSPEC1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  #columncontainerSPEC1 {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+#columncontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+  #columncontainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  #columncontainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.dangerousbutton a {
+    color: deeppink;
+}
+
+.dangerousbutton a:hover {
+    color: rgb(255, 0, 64);
+}
+
+/* .dangerousbutton { */
+    /* outline: 1px solid red; */
+    /* height: 500px; */
+    /* cursor: not-allowed; */
+/* } */
+
+/* .dangerousbutton a { */
+    /* transform: translate(0px, 65px); */
+    /* color: deeppink; */
+    
+    /* display: inline-block; */
+    /* transition: transform 0.3s cubic-bezier(0, 0.7, 0.2, 1), color 0.1s ease; */
+/* } */
+
+/* .dangerousbutton:hover a { */
+    /* transform: translate(calc(100vw - 300px), 200px); */
+    /* text-align: right; */
+/* } */
+
+#BODYTHINGSTRICT {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width: 800px) {
+    #BODYTHINGSTRICT {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+#BODYTHING {
+    margin: 5%;
+}
+
+#wikilist1in{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#wikilist1 a {
+    font-size: 30px;
+}
+
+#wikilist1 a:hover {
+    font-size: 50px;
+}
+
+#headbanner h1 {
+    color: rgb(255, 255, 255);
+    font-family: inconsolata3;
+    position: absolute;   
+    font-size: 70px;
+    text-align: left;
+    top: -32px;             
+    left: 25px;
+    z-index: 1;
+    text-shadow: 0 0 10px black;
+}
+
+#headbanner {
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+#headbanner img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+
+    filter: blur(4px);
+    transform: scale(1.1);
+
+    opacity: 50%;
+}
+
+#slipspages h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#slipspages a:hover {
+    font-size: 40px;
+    opacity: 100%;
+    transition: opacity 0.2s linear;
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1);
+}
+
+#slipspages a {
+    font-size: 30px;
+    opacity: 20%;
+}
+
+#slips {
+    font-size: 30px;
+    color:rgb(251, 255, 8);
+}
+
+#slips:hover {
+    font-size: 40px;
+    color:rgb(254, 255, 170);
+}
+
+.mail {
+    color: white;
+}
+
+#Hellosection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eyecatchingfirstonebigoootitle {
+    font-family: inconsolata3;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.eyecatchingfirstonebigooo {
+    font-size: 20px;
+}
+
+.regularfriends {
+    color: lightskyblue;
+}
+
+
+.motiondes {
+    color: greenyellow;
+}
+
+#coolpeople {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+
+}
+
+a img {
+    width: 50;
+    transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1);
+}
+
+a:hover img {
+    transform: scale(1.5);
+}
+
+.merchentry {
+    /* just in case */
+}
+
+.merchtitle {
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+.merchpics {
+    display: flex;
+}
+
+.indexjustincasetherestwoelementsinaddivandthebuttongetsextraspacebetweenotherbuttons {
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+
+/*for teleporter*/
+.wall {
+    color: rgb(124, 148, 255);
+}
+
+.wall:hover {
+    color: rgb(99, 250, 212);
+}
+
+.img {
+    color: peachpuff;
+}
+
+.img:hover {
+    color: rgb(255, 46, 46);
+}
+
+.vid {
+    color: rgb(255, 185, 249);
+}
+
+.vid:hover {
+    color: rgb(178, 46, 255);
+}
+
+.mograph {
+    color: rgb(185, 255, 200);
+}
+
+.mograph:hover {
+    color: rgb(24, 255, 128);
+}
+
+.audio {
+    color: rgb(195, 185, 255);
+}
+
+.audio:hover {
+    color: rgb(67, 46, 255);
+}
+
+.threed {
+    color: rgb(255, 191, 138);
+}
+
+.threed:hover {
+    color: rgb(255, 140, 33);
+}
+
+.other {
+    color: rgb(189, 189, 189);
+}
+
+.other:hover {
+    color: rgb(141, 255, 249);
+}
+
+.mpack {
+    color: rgb(252, 255, 69);
+}
+
+.mpack:hover {
+    color: rgb(255, 84, 16);
+}
+/**/
+
+.quickgrab {
+    color: lime;
+}
+
+.quickgrab:hover {
+    color: lightgreen;
+}
+
+.varpack {
+    color: lightseagreen;
+}
+
+.varpack:hover {
+    color: cyan;
+}
+
+.artists {
+    color: mediumpurple;
+}
+
+.artists:hover {
+    color: lightpink;
+}
+
+/**/
+
+#aboutme {
+    color: rgb(20, 255, 235);
+}
+
+#aboutme:hover {
+    color: rgb(255, 36, 84);
+    font-size: 40px;
+}
+
+#moremedia {
+    color: rgb(39, 255, 103);
+}
+
+#moremedia:hover {
+    color: rgb(124, 23, 255);
+    font-size: 40px;
+}
+
+#dailynotebook {
+    text-decoration: none;
+    color: rgb(106, 255, 37);
+}
+
+#dailynotebook:hover {
+    color: rgb(46, 136, 255);
+    font-size: 40px;
+}
+
+#wishlist {
+    color: rgb(216, 255, 40);
+}
+
+#wishlist:hover {
+    color: rgb(8, 255, 193);
+    font-size: 40px;
+}
+
+#mymusic {
+    color: rgb(57, 243, 166);
+}
+
+#mymusic:hover {
+    color: rgb(32, 255, 69);
+    font-size: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.medianavigation {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainmid {
+    max-width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.fc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fe {
+    flex-basis: 30%;
+    flex-grow: 1;
+    max-width: 700px;
+    min-width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a, p, h1, h2, h3, h4 {
+    user-select: white;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background-color: white;
+  color: black;
+}
+
+#qrpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+#titlediv {
+    padding: 20px;
+}
+
+.mid {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+
+.midxtra {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+    color:rgb(147, 163, 179);
+}
+
+#qn {
+    color: lightskyblue;
+}
+
+#qnsec {
+    margin: 50px;
+}
+
+body {
+    background-color: black;
+    margin-bottom: 200px;
+}
+
+
+h1.titlething {
+    text-align: center;
+    color: white;
+    font-family: inconsolata3;
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+h1 {
+    color: white;
+    font-family: coolvetica;
+}
+
+#dnyear{
+    transform: rotate3d(1, 1, 0, 30deg);
+    color: rgb(76, 183, 255);
+    font-family: coolvetica;
+    font-size: 70px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+#dnmonth{
+    transform: rotate3d(1, 1, 0, 25deg);
+    color: rgb(154, 214, 255);
+    font-family: coolvetica;
+    font-size: 40px;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    position: relative;
+    left: 15px;
+    text-shadow: 0 0 10px black;
+}
+
+#dnday{
+    transform: rotate3d(1, 1, 0, 20deg);
+    color: rgb(205, 235, 255);
+    font-family: coolvetica;
+    margin-top: -25px;
+    margin-bottom: -20px;
+    position: relative;
+    left: 30px;
+    text-shadow: 0 0 10px black;
+}
+
+#dnentryt{
+    transform: rotate3d(1, 1, 0, 15deg);
+    color: rgb(247, 252, 255);
+    font-family: coolvetica;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: -45px;
+    position: relative;
+    left: 45px;
+    text-shadow: 0 0 10px black;
+}
+
+#dnentrybody{
+    transform: rotate3d(1, 1, 0, 10deg);
+    color: rgb(215, 222, 227);
+    font-family: coolvetica;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 90px;
+    text-shadow: 0 0 10px black;
+}
+
+p {
+    color: white;
+    font-family: inconsolata2;
+}
+
+h2 {
+    color: white;
+    font-family: inconsolata2;
+}
+
+#subcountdiv {
+    padding: 50px;
+}
+
+#subcount, #subcounttext, #smalltext {
+    margin: 0px;
+    padding: 0px;
+}
+
+#subcount {
+    font-size: 70px;
+}
+
+#smalltext {
+    font-size: 10px;
+    color: rgb(83, 91, 98);
+}
+
+#smalltextnopadding {
+    font-size: 16px;
+    color: rgb(120, 147, 170);
+    margin-top: -22px;
+}
+
+#smalltextheadextra {
+    font-size: 10px;
+    color: rgb(61, 68, 75);
+    margin-top: -22px;
+}
+
+
+a {
+    text-decoration: none;
+    color: lightslategray;
+    font-family: inconsolata2;
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
+#leafyrope {
+    text-decoration: none;
+    color: rgb(50, 192, 109);
+    /* font-family: coolvetica; */
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
+#yt {
+    text-decoration: none;
+    color: crimson;
+    /* font-family: coolvetica; */
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
+#yt:hover {
+    color: lightcoral;
+    font-size: 40px;
+}
+
+#discord {
+    text-decoration: none;
+    color: #481fff;
+    /* font-family: coolvetica; */
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
+#discord:hover {
+    color: #a601f3;
+    font-size: 30px;
+}
+
+#github {
+    text-decoration: none;
+    color: #d6d6d6;
+    /* font-family: coolvetica; */
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+}
+
+#github:hover {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.merchindex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.mie {
+    font-size: 50px;
+}
+
+.mie:hover {
+    font-size: 60px;
+    color: lightsteelblue;
+}
+
+.indexmerch {
+    font-size: 19px;
+}
+
+.merchhov {
+    color: rgba(255, 255, 255, 0)
+}
+
+.indexmerch:hover .nmerchhov {
+    margin-right: 0px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.indexmerch:hover .merchhov{
+    margin-left: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+a:hover {
+    color: lightskyblue;
+    font-size: 20px;
+}
+
+#leafyrope:hover {
+    color: rgb(192, 255, 220);
+    font-size: 40px;
+}
+
+.backmarg {
+    margin-top: 50px;
+}
+
+.bg {
+    z-index: -1;
+    display: grid;
+    position: fixed;
+    width: 1000%;
+    height: 1000%;
+    margin: -50px;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #aca4a400 2px, rgb(14, 14, 15) 1px);
+    background-repeat: space;
+    animation: backgrid linear;
+    animation-timeline: scroll();
+    pointer-events: none;
+}
+
+@keyframes backgrid {
+    to {
+        transform: translateY(-100px)
+    }
+}
+
+.bg2 {
+    display:fixed;
+}
+
+.mfre {
+    color: rgb(116, 169, 248)
+}
+
+.mfre:hover {
+    color: rgb(191, 210, 238)
+}
+
+.mega {
+    color: rgb(255, 80, 103)
+}
+
+.mega:hover {
+    color: rgb(255, 135, 161)
+}
+
+.trrn {
+    color: rgb(80, 255, 109)
+}
+
+.trrn:hover {
+    color: rgb(171, 255, 203)
+}
+
+.flpo {
+    color: rgb(255, 175, 84)
+}
+
+.flpo:hover {
+    color: rgb(226, 108, 11)
+}
+
+.allo {
+    color: rgb(199, 250, 105)
+}
+
+.allo:hover {
+    color: rgb(145, 255, 0)
+}
+
+.artistcolorcodelegend {
+    font-size: 12px;
+    line-height: 0.8;
+}

@@ -1,0 +1,25 @@
+{
+    "id": "nico",
+    "name": "Nico",
+
+    "species": "Arctic Fox",
+    "age": 20,
+    "gender": "Male",
+    "orientation": "Bisexual",
+    "status": "Alive",
+    "employed": "No",
+
+    "birthYear": 2006,
+    "appearanceColor": "White fur",
+
+    "quote": "'When it comes to bills, you'd see him on the top of the leaderboard' - Archie, definitely",
+
+    "bio": "Nico is an Arctic fox, and one of the main characters in the series. Most of the time, He appears with a generic loose shirt and shorts, but in other media He is more often drawn in a jacket. While living in the main house, He almost always stays near air conditioner due to his nature as an arctic fox.<br><br>will add more stuff later :P",
+
+    "bannerImg": "LAYERMERGEnicothing.png",
+
+    "gallery": [
+        "LAYERMERGEnicothing.png"
+    ]
+
+}

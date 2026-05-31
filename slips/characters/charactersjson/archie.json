@@ -1,0 +1,25 @@
+{
+    "id": "archie",
+    "name": "Archie",
+
+    "species": "Land Shark",
+    "age": 22,
+    "gender": "Male",
+    "orientation": "Gay",
+    "status": "Alive",
+    "employed": "Yes",
+
+    "birthYear": 2004,
+    "appearanceColor": "Blue skin with White underbelly",
+
+    "quote": "'quick question, why can you breathe air?' -Nico",
+
+    "bio": "Archie is quite the odd shark, he's one of many that can breathe air for some reason. He works as a delivery guy with <a href='/slips/character.html?char=charlie'>Charlie</a>, a friend of his. He also has quite the messed up sleep schedule, often staying up till 3 am because yes.",
+
+    "bannerImg": "archiesheetVERYold.png",
+
+    "gallery": [
+        "archiesheetVERYold.png"
+    ]
+
+}

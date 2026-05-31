@@ -24,7 +24,7 @@
 async function loadCharacter() {
     const params = new URLSearchParams(window.location.search);
 
-    const paramaram = params.get("char");
+    const paramaram = params.get("data");
 
     const aresponse =
         await fetch(`/slips/data/datajson/${paramaram}.json`);

@@ -1,5 +1,6 @@
 {
     "id": "nico",
+    "type": "character",
     "name": "Nico",
 
     "species": "Arctic Fox",

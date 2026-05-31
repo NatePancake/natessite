@@ -24,50 +24,69 @@
 async function loadCharacter() {
     const params = new URLSearchParams(window.location.search);
 
-    const characterName = params.get("char");
+    const paramaram = params.get("char");
 
-    const response =
-        await fetch(`/slips/characters/charactersjson/${characterName}.json`);
+    const aresponse =
+        await fetch(`/slips/data/datajson/${paramaram}.json`);
 
-    const character =
-        await response.json();
+    const data =
+        await aresponse.json();
 
-    console.log(character);
+    console.log(data);
+    if (data.type == "character") {
+      // CHARACTER STUFF
+      document.getElementById("wName").textContent =
+        data.name;
 
-    document.getElementById("wName").textContent =
-      character.name;
+      document.getElementById("wSpecies").textContent =
+        data.species;
 
-    document.getElementById("wSpecies").textContent =
-      character.species;
+      document.getElementById("wAge").textContent =
+        data.age;
 
-    document.getElementById("wAge").textContent =
-      character.age;
+      document.getElementById("wGender").textContent =
+        data.gender;
 
-    document.getElementById("wGender").textContent =
-      character.gender;
+      document.getElementById("wOrientation").textContent =
+        data.orientation;
 
-    document.getElementById("wOrientation").textContent =
-      character.orientation;
+      document.getElementById("wStatus").textContent =
+        data.status;
 
-    document.getElementById("wStatus").textContent =
-      character.status;
+      document.getElementById("wEmployed").textContent =
+        data.employed;
 
-    document.getElementById("wEmployed").textContent =
-      character.employed;
+      document.getElementById("wQuote").innerHTML =
+        data.quote;
 
-    document.getElementById("wQuote").innerHTML =
-      character.quote;
+      document.getElementById("wBio").innerHTML =
+        data.bio;
 
-    document.getElementById("wBio").innerHTML =
-      character.bio;
+    } else if (data.type == "place") {
+      // PLACES STUFF
+      document.getElementById("wName").textContent =
+        data.name;
+
+      document.getElementById("wFloors").textContent =
+        data.floors;
+
+      document.getElementById("wLocation").textContent =
+        data.location;
+
+      document.getElementById("wQuote").textContent =
+        data.quote;
+
+      document.getElementById("wBio").innerHTML =
+        data.bio;
+    }
 
     document.getElementById("wBannerImg").src =
-      `/media/slips/${character.bannerImg}`;
+        `/media/slips/${data.bannerImg}`;
 
     const gallery =
     document.getElementById("wikigalleryrow");
 
-    for (const imagePath of character.gallery) {
+    for (const imagePath of data.gallery) {
         const img =
             document.createElement("img");
 

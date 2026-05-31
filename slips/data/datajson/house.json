@@ -1,0 +1,19 @@
+{
+    "id": "house",
+    "type": "place",
+    "name": "The house",
+
+    "floors": 2,
+    "location": "somewhere in australia",
+
+    "quote": "none yet",
+
+    "bio": "this is quite the house.",
+
+    "bannerImg": "floor plan 2.png",
+
+    "gallery": [
+        "floor plan 2.png"
+    ]
+
+}

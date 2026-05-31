@@ -1,5 +1,6 @@
 {
     "id": "archie",
+    "type": "character",
     "name": "Archie",
 
     "species": "Land Shark",

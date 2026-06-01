@@ -80,6 +80,7 @@ async function loadCharacter() {
         data.bio;
 
       if (data.hasFloorPlan == true) {
+        document.getElementById("floorplancolumnelement").style.display = "block";
 
         const galleryl =
         document.getElementById("wikigalleryrowlarger");

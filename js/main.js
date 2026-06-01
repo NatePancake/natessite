@@ -78,6 +78,21 @@ async function loadCharacter() {
 
       document.getElementById("wBio").innerHTML =
         data.bio;
+
+      if (data.hasFloorPlan == true) {
+
+        const galleryl =
+        document.getElementById("wikigalleryrowlarger");
+        
+        for (const imagePath of data.gallerylarger) {
+          const img =
+              document.createElement("img");
+
+          img.src = `/media/slips/${imagePath}`;
+
+          galleryl.appendChild(img);
+        }
+      }
     }
 
     document.getElementById("wBannerImg").src =
@@ -85,6 +100,7 @@ async function loadCharacter() {
 
     const gallery =
     document.getElementById("wikigalleryrow");
+    
 
     for (const imagePath of data.gallery) {
         const img =

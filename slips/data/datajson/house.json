@@ -1,6 +1,7 @@
 {
     "id": "house",
     "type": "place",
+    "hasFloorPlan": true,
     "name": "The house",
 
     "floors": 2,
@@ -11,6 +12,10 @@
     "bio": "this is quite the house.",
 
     "bannerImg": "floor plan 2.png",
+
+    "gallerylarger": [
+        "floor plan 2.png"
+    ],
 
     "gallery": [
         "floor plan 2.png"

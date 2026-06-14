@@ -1,0 +1,26 @@
+{
+    "id": "tommy",
+    "type": "character",
+    "name": "Tommy",
+
+    "species": "Wolf",
+    "age": 21,
+    "gender": "Male",
+    "orientation": "Straight",
+    "status": "Alive",
+    "employed": "Yes",
+
+    "birthYear": 2005,
+    "appearanceColor": "Gray fur",
+
+    "quote": "None yet",
+
+    "bio": "Tommy's a very very enthusiastic wolf when it comes to cooking, he has a great passion for cooking and is expectedly, the cook of the gang.",
+
+    "bannerImg": "archiesheetVERYold.png",
+
+    "gallery": [
+        "archiesheetVERYold.png"
+    ]
+
+}

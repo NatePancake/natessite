@@ -29,6 +29,14 @@
     }
 }
 
+#wowhellotherep {
+    white-space: pre-line;
+}
+
+#wowhellothere img {
+    width: 100%;
+}
+
 #solidbg {
     position: absolute;
     left: 50%;
@@ -515,6 +523,7 @@ a:hover img {
 
 #mymusic {
     color: rgb(57, 243, 166);
+    font-size: 30px;
 }
 
 #mymusic:hover {

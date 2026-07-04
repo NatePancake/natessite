@@ -29,12 +29,21 @@
     }
 }
 
+#wowhellothere {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #wowhellotherep {
     white-space: pre-line;
 }
 
-#wowhellothere img {
-    width: 100%;
+#wowhellothereimg {
+    max-width: 100%;
+    max-height: 400px;
+    
 }
 
 #solidbg {

@@ -29,6 +29,50 @@
     }
 }
 
+#kaodiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+#kaoindiv {
+    margin: 20px;
+}
+
+#kao {
+    font-family: srexp;
+    color: rgb(19, 255, 98);
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+#kaoinfo {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    color:#47eebc
+}
+
+#kaoinblock {
+    color:hotpink;
+}
+
+#kaosupport {
+    margin-bottom: 0;
+    font-size: 25px;
+    color:rgb(86, 211, 128);
+}
+
+#kaosupport:hover {
+    font-size: 30px;
+    color: white;
+}
+
 #wowhellothere {
     display: flex;
     width: 100%;

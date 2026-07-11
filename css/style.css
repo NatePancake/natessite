@@ -90,14 +90,39 @@
     
 }
 
+/*
+body {
+    position: relative;
+    background-image: linear-gradient(rgb(8, 6, 15), rgb(37, 34, 58));
+    margin-bottom: 200px;
+    overflow-x: hidden;
+
+    z-index: -2
+}
+*/
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+
+    position: relative;
+    background-image: linear-gradient(rgb(8, 6, 15), rgb(37, 34, 58));
+    overflow-x: hidden;
+    margin: 0;
+    z-index: -1;
+}
+
 #solidbg {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     background-color: #010102bb;
     width: 70vw;
-    height: calc(100% + 200px);     /* Or whatever tall height you wanted */
-    z-index: -100;
+    height: calc(100% + 200px);
+    z-index: -1;
 }
 
 
@@ -107,8 +132,9 @@
     animation: backgrid linear;
     animation-timeline: scroll();
     background-repeat: space;
+    pointer-events: none;
 
-    z-index: -101;
+    z-index: 0;
 
 }
 
@@ -660,13 +686,6 @@ a, p, h1, h2, h3, h4 {
 
 #qnsec {
     margin: 50px;
-}
-
-body {
-    position: relative;
-    background-image: linear-gradient(rgb(8, 6, 15), rgb(37, 34, 58));
-    margin-bottom: 200px;
-    overflow-x: hidden;
 }
 
 

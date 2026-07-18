@@ -29,6 +29,18 @@
     }
 }
 
+#tt1 {
+    color: rgb(255, 63, 127);
+}
+
+#tt2 {
+    color: rgb(69, 227, 255);
+}
+
+#artfight {
+    color: rgb(189, 225, 255);
+}
+
 #kaodiv {
     display: flex;
     flex-wrap: wrap;

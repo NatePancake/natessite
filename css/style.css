@@ -29,6 +29,27 @@
     }
 }
 
+.bannerspace {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#imageinpage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#answerstoyourquestions {
+    margin-left: 20px;
+}
+
+#smalltextfixupmargin {
+    margin-top: 0px;
+}
+
 #twitter {
     color:rgb(8, 255, 193);
 }
@@ -416,7 +437,35 @@ body {
     opacity: 20%;
 }
 
+#enoughspace {
+    background: linear-gradient(to right, #4162f5, #feb47b);
+  
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    -webkit-text-fill-color: transparent; 
+    color: transparent;
+
+    display: inline-block; 
+    font-size: 30px;
+
+}
+
+#enoughspace:hover {
+    font-size: 40px;
+    color:rgb(254, 255, 170);
+}
+
 #slips {
+    background: linear-gradient(to right, #ffb921, #f0ff1b);
+  
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    -webkit-text-fill-color: transparent; 
+    color: transparent;
+
+    display: inline-block; 
     font-size: 30px;
     color:rgb(251, 255, 8);
 }
@@ -617,7 +666,15 @@ a:hover img {
 }
 
 #mymusic {
-    color: rgb(57, 243, 166);
+    background: linear-gradient(to right, #50ff25, #29ff89);
+  
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    -webkit-text-fill-color: transparent; 
+    color: transparent;
+
+    display: inline-block; 
     font-size: 30px;
 }
 

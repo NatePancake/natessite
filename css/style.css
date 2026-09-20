@@ -23,10 +23,33 @@
     src: url(/fonts/acurler.otf)
 }
 
+@font-face {
+    font-family: gabriel;
+    src:  url(/fonts/gabrielsans.otf);
+}
+
 @keyframes backgrid {
     to {
         transform: translateY(-100px)
     }
+}
+
+#indexcolumngrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#bsky {
+    color:#8eace4
+}
+
+#indexsection {
+    background-color: rgba(22, 8, 71, 0.493);
+    border: 2px, solid, white;
+    border-bottom-right-radius: 40px;
+    corner-bottom-right-shape: bevel;
+    padding: 40px;
+    margin: 20px;
 }
 
 .bannerspace {
@@ -66,6 +89,156 @@
     color: rgb(189, 225, 255);
 }
 
+#tosgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#tosyes h3 {
+    color: rgb(217, 255, 0);
+    background-color: rgb(16, 17, 68);
+    padding: 20px;
+    margin-top: 0;
+}
+
+#tosno h3 {
+    color: rgb(255, 0, 85);
+    background-color: rgb(16, 17, 68);
+    padding: 20px;
+    margin-top: 0;
+}
+
+#cominfodivcontent h2 {
+    background-color: #a49aff;
+    padding: 20px;
+}
+
+#cominfodivcontent a {
+    background-color: #0c1725;
+    padding: 10px;
+}
+
+
+#comcol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#cominfocolumn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+#comdiv {
+    margin: 20px;
+    background-color: rgb(217, 255, 0);
+}
+
+#comindiv {
+    padding: 20px;
+}
+
+#com {
+    font-family: gabriel;
+    color: rgb(0, 4, 241);
+    font-size: 50px;
+}
+
+#cominfodiv {
+    position: static;
+    background-color: rgba(0, 0, 255, 1);
+    padding: 20px;
+    border: 1px, solid, white;
+    transform: translateY(0px);
+    transition: transform 2s cubic-bezier(0, 1, 0, 1);
+}
+
+#cominfodiv:hover {
+    background-color: rgba(0, 0, 255, 1);
+    border: 1px, solid, white;
+    transform: translateY(10px);
+    transition: transform 2s cubic-bezier(0, 1, 0, 1);
+}
+
+#cominfodiventer {
+    position: relative;
+    display: inline-block;
+    color: rgb(217, 255, 0);
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#comcol2 img {
+    max-width: 30vw;
+    border: 2px solid rgb(217, 255, 0);
+}
+
+#combanner {
+    max-width: 20vw;
+    border: 2px solid rgb(217, 255, 0);
+}
+
+#cominfodivcontent {
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(253, 253, 255);
+    padding: 20px;
+    border: 1px, solid, white;
+    opacity: 0;
+    visibility: hidden;
+    filter: blur(10px);
+
+    transform: translate(-1000px, 0) rotateY(20deg) rotateX(100deg);
+    transition: transform 2s cubic-bezier(0, 1, 0, 1),
+                opacity 0.2s,
+                filter 0.2s;
+                visibility: 0s linear 2s;
+    
+}
+
+#cominfodiv:hover #cominfodivcontent {
+    
+    border: 5px, solid, rgb(217, 255, 0);
+    background-color: rgb(0, 0, 255);
+    opacity: 1;
+    visibility: visible;
+    filter: blur(0);
+    
+    transform: translate(-200px, 0) rotateY(0) rotateX(0deg);
+    transition: transform 2s cubic-bezier(0, 1, 0, 1),
+                opacity 0.2s,
+                filter 0.2s linear,
+                visibility 0s linear 0s;
+}
+
+.comcontentcategory {
+    font-size: 40px;
+}
+
+#cominfo {
+    color:#141035
+}
+
+#cominblock {
+    color:hotpink;
+}
+
+#comsupport {
+    margin-bottom: 0;
+    font-size: 25px;
+    color:rgb(86, 211, 128);
+}
+
+#comsupport:hover {
+    font-size: 30px;
+    color: white;
+}
+
 #kaodiv {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +253,7 @@
 }
 
 #kao {
-    font-family: srexp;
+    font-family: gabriel;
     color: rgb(19, 255, 98);
     font-size: 35px;
     text-align: center;
@@ -481,13 +654,16 @@ body {
 
 #Hellosection {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px
+    
 }
 
 .eyecatchingfirstonebigoootitle {
     font-family: inconsolata3;
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .eyecatchingfirstonebigooo {
@@ -630,39 +806,55 @@ a:hover img {
 
 #aboutme {
     color: rgb(20, 255, 235);
+    background-color: rgb(40, 64, 100);
+    padding: 20px;
 }
 
 #aboutme:hover {
     color: rgb(255, 36, 84);
     font-size: 40px;
+    background-color: rgb(100, 40, 45);
+    padding: 10px;
 }
 
 #moremedia {
     color: rgb(39, 255, 103);
+    background-color: rgb(40, 100, 50);
+    padding: 20px;
 }
 
 #moremedia:hover {
     color: rgb(124, 23, 255);
     font-size: 40px;
+    background-color: rgb(58, 40, 100);
+    padding: 10px;
 }
 
 #dailynotebook {
     text-decoration: none;
     color: rgb(106, 255, 37);
+    background-color: rgb(40, 100, 40);
+    padding: 20px;
 }
 
 #dailynotebook:hover {
     color: rgb(46, 136, 255);
     font-size: 40px;
+    background-color: rgb(40, 59, 100);
+    padding: 10px;
 }
 
 #wishlist {
     color: rgb(216, 255, 40);
+    background-color: rgb(84, 100, 40);
+    padding: 20px;
 }
 
 #wishlist:hover {
     color: rgb(8, 255, 193);
     font-size: 40px;
+    background-color: rgb(40, 96, 100);
+    padding: 10px;
 }
 
 #mymusic {
@@ -838,6 +1030,16 @@ p {
 h2 {
     color: white;
     font-family: inconsolata2;
+    /* margin: 0; */
+    line-height: 1;
+}
+
+h3 {
+    color: white;
+    font-family: inconsolata2;
+    /* margin: 0; */
+    line-height: 1;
+    font-size: 30px;
 }
 
 #subcountdiv {
@@ -875,7 +1077,7 @@ a {
     text-decoration: none;
     color: lightslategray;
     font-family: inconsolata2;
-    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1);
+    transition: font-size 0.6s cubic-bezier(0.2, 0, 0, 1), color 0.4s cubic-bezier(0, 1 ,1 ,1), padding 0.6s cubic-bezier(0.2, 0, 0, 1), background-color 0.4s cubic-bezier(0, 1 ,1 ,1);
 }
 
 #leafyrope {
@@ -894,7 +1096,7 @@ a {
 
 #yt:hover {
     color: lightcoral;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #discord {

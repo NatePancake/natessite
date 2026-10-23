@@ -34,6 +34,17 @@
     }
 }
 
+.aboutmeindexenumeration {
+    font-size: 25px;
+    margin-left:40px;
+    margin-bottom: 50px;
+}
+
+.aboutmeindex {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
 #agyear {
     color: rgb(15, 51, 255);
     font-size: 200px;
@@ -874,9 +885,15 @@ a:hover img {
     padding: 10px;
 }
 
+#motiongallery {
+    color: rgb(86, 252, 135);
+    background-color: rgb(40, 100, 72);
+    padding: 20px;
+}
+
 #wishlist {
-    color: rgb(216, 255, 40);
-    background-color: rgb(84, 100, 40);
+    color: rgb(255, 198, 40);
+    background-color: rgb(100, 69, 40);
     padding: 20px;
 }
 

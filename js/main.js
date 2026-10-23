@@ -94,8 +94,8 @@ loadCharacter();
 
 // wowhellothere
 
-wowhellothereimages = ["nico.png", "archie.png"]
+wowhellothereimages = ["nico.png", "archie.png", "wade.png", "sona.png"]
 
 const whtrndpick = wowhellothereimages[Math.floor(Math.random() * wowhellothereimages.length)];
 document.getElementById("wowhellothereimg").src = "media/websiteassets/wowhellothere/" + whtrndpick;
-document.getElementById("wowhellotherep").textContent = ">> greeter (" + whtrndpick + ")" + "\n refresh for a another random image! \n probability of every image: 50%";
+document.getElementById("wowhellotherep").textContent = ">> greeter (" + whtrndpick + ")" + "\n refresh for a another random image! \n probability of every image: 25%";
